@@ -2,7 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 
-import placeholderIMG1 from '../assets/images/makeup-pallete.jpg'
+import placeholderIMG1 from '../assets/images/makeup-pallete.jpg'; 
+import placeholderIMG2 from '../assets/images/portrait.jpg'
 function HomePage() {
     return (
         <main id="homepage">
@@ -22,6 +23,26 @@ function HomePage() {
                             </div>
                         </div>
                     </Fade>
+                </div>
+            </div>
+
+            <div id="about" className="container">
+                <h1 className="text-center">About Me</h1>
+                <div className="row mt-5">
+                    <div className="col-md-6">
+                        <p className="about-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+
+                    <div className="col-md-6 d-flex justify-content-center">
+                        <img src={placeholderIMG2}/>
+                    </div>
                 </div>
             </div>
         </main>

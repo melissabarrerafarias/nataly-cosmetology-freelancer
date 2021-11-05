@@ -54,3 +54,24 @@
     color: black
 }
 
+#about {
+    margin-top: 12%
+}
+
+#about h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#about img {
+    width: 60%; 
+}
+
+.about-desc {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    margin-left: 30px
+
+}
+
