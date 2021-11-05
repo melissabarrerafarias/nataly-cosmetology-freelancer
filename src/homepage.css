@@ -4,7 +4,53 @@
 }
 
 /* homepage js */
+
 .homepage-init-img {
-    width: 35%; 
-    align-self: right; 
+    width: 70%;
 }
+
+.overlap-text-div {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    background-color: #121212; 
+    height: 400px; 
+    width: 70%; 
+    margin-top: 15%; 
+    color: white; 
+}
+
+.overlap-h1 {
+    font-size: 45px;
+    padding-top: 60px; 
+}
+
+.overlap-p {
+    font-size: 20px;
+    padding-top: 50px; 
+    padding-right: 40px; 
+    padding-left: 40px; 
+    font-family: 'EB Garamond', serif;
+}
+
+.overlap-btn {
+    background-color: #e9e1ded6;
+    border-radius: 5px;
+    padding: 5px 10px ; 
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    border: none; 
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.overlap-btn:hover {
+    background-color: white;
+    font-size: 18px
+}
+
+.overlap-btn a {
+    text-decoration: none;
+    color: black
+}
+
