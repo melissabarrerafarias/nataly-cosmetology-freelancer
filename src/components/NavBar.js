@@ -18,13 +18,13 @@ function NavBar() {
                             <a id="navFAQ" class="nav-link" aria-current="page" href="/">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a id="navFAQ" class="nav-link" aria-current="page" href="/">ABOUT</a>
+                            <a id="navFAQ" class="nav-link" aria-current="page" href="/#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a id="navAbout" class="nav-link" aria-current="page" href="/">SERVICES</a>
+                            <a id="navAbout" class="nav-link" aria-current="page" href="/services">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a id="navContact" class="nav-link" aria-current="page" href="/">BOOK NOW</a>
+                            <a id="navContact" class="nav-link" aria-current="page" href="/appointment">BOOK NOW</a>
                         </li>
                     </ul>
                 </div>
