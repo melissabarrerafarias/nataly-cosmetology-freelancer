@@ -31,3 +31,43 @@
     margin: 0 auto;
     margin-top: 5%
 }
+
+.form-control {
+    background-color: rgba(252, 252, 252, 0.6); 
+    border: none; 
+    outline: none;
+    transition: none;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#appt-main label {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px
+}
+
+#appt-main textarea {
+    height: 150px
+} 
+
+#appt-main ::placeholder {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+}
+
+.contact-btn {
+    background-color: #c0998d6f;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: 1s;
+}
+
+.contact-btn:hover {
+    background-color: #C69D92 ;
+}

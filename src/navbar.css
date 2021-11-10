@@ -23,3 +23,8 @@
     font-family: 'EB Garamond', serif;
     padding-left: 30px
 }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
+    color: #FFFDF7;
+}
+
