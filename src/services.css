@@ -2,6 +2,10 @@
     background-color: white;
 }
 
+.message-background {
+    background-color: #E9E1DE;
+}
+
 .you-look-good {
     align-self: center;
 }
@@ -29,4 +33,30 @@
 
 #services img {
     max-width: 50%;
+}
+
+#nav-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    font-size: 20px; 
+    font-family: 'Merriweather', serif; 
+    padding: 10px; 
+    transition: 0.5s;
+}
+
+.nav-services {
+    background-color: white;
+    width: 50%; 
+    padding: 40px; 
+    border-style: solid; 
+    border-width: 1px;
+    box-shadow: 7px 5px 5px #876c64;
+    border-radius: 10px;
+}
+
+#nav-container a:hover {
+    font-size: 25px;
+    color: #876c64
 }
