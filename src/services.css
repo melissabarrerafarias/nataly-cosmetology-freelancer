@@ -35,6 +35,11 @@
     max-width: 50%;
 }
 
+#Nav-Invite {
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
 #nav-container a {
     display: block;
     text-align: center;
@@ -44,6 +49,7 @@
     font-family: 'Merriweather', serif; 
     padding: 10px; 
     transition: 0.5s;
+    letter-spacing: 1px;
 }
 
 .nav-services {
@@ -52,11 +58,79 @@
     padding: 40px; 
     border-style: solid; 
     border-width: 1px;
-    box-shadow: 7px 5px 5px #876c64;
-    border-radius: 10px;
+    box-shadow: 20px 10px #876c64;
+    border-color: #876c64
+    /* border-radius: 10px; */
 }
 
 #nav-container a:hover {
     font-size: 25px;
     color: #876c64
+}
+
+#services-appt-invite hr {
+    height: 5px;
+    width: 75%;
+    background-color: #876c64;
+    margin-left: 70px
+}
+
+.invite-p1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 35px;
+}
+
+.invite-p2 {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    text-align: end;
+    padding-right: 80px;
+}
+
+#Nav-Invite a {
+    color: black
+}
+
+.today {
+    text-decoration: underline;
+}
+
+#hair {
+    margin-top: 10%
+}
+
+#hair img {
+    margin-left: 40%;
+    width: 50%;
+}
+
+#hair h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+
+#hair p {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+.hair-srvs-div {
+    width: 20%
+}
+
+#hairstyle {
+    margin-top: 10%
+}
+
+#hairstyle p {
+    justify-content: end;
+}
+
+.hairstyle-div {
+    width: 20%; 
+    text-align: end;
+}
+
+#hairstyle img {
+    /* margin-left: 55% */
 }

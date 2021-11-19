@@ -27,7 +27,7 @@ function HomePage() {
             </div>
 
             <div id="about" className="container">
-                <h1 className="text-center">About Me</h1>
+                <h1 className="text-center">Meet Your Stylist</h1>
                 <div className="row mt-5">
                     <div className="col-md-6">
                         <p className="about-desc">
