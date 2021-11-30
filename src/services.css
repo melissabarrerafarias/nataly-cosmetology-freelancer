@@ -121,9 +121,17 @@
 #hairstyle {
     margin-top: 10%
 }
+ 
+.hair-srvs-div-2 {
+    width: 50%; 
+    float: right; 
+    padding-right: 70px
+}
 
 #hairstyle p {
-    justify-content: end;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    /* text-align: end; */
 }
 
 .hairstyle-div {
@@ -132,5 +140,62 @@
 }
 
 #hairstyle img {
-    /* margin-left: 55% */
+    min-width: 50%
+}
+
+#hairstyle h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    /* text-align: end; */
+}
+
+#makeup {
+    margin-top: 15%
+}
+
+#makeup h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+
+.makeup1 {
+    float: right;
+    padding-left: 20px
+    /* min-width: 110% */
+}
+
+.makeup2 {
+    /* height: 400px */
+    float: left;
+}
+
+#makeup img {
+    height: 90%;
+    max-width: 400px;
+}
+
+.makeup-p {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+#group-events {
+    margin-top: 15%; 
+    padding-bottom: 10%;
+}
+
+#group-events img {
+    max-width: 80%; 
+    float: right
+}
+
+#group-events h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+
+.group-events-p {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    width: 80%
 }
