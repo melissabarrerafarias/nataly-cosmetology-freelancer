@@ -66,13 +66,85 @@
 }
 
 #about img {
-    width: 60%; 
+    width: 60%;
+    margin-left: 30% 
 }
 
 .about-desc {
     font-family: 'EB Garamond', serif;
     font-size: 22px;
     margin-left: 30px
+}
 
+@media (max-width: 1400px) {
+    #about img {
+        width: 100%; 
+        margin: 0 auto
+    }
+}
+
+@media (max-width: 1200px) {
+    .overlap-text-div {
+        width: 90%; 
+        margin-top: 3%;
+    }
+
+    #about img {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 992px) {
+    .overlap-text-div {
+        width: 100%;
+        margin-top: 8%; 
+    }
+
+    .overlap-h1 {
+        font-size: 40px
+    }
+
+    .homepage-init-img {
+        width: 100%
+    }
+
+    .about-desc {
+        font-size: 16px
+    }
+}
+
+@media (max-width: 768px) {
+    #about img { 
+        margin: 0 auto; 
+        width: 100%;
+        margin-bottom: 5%;
+        display: block;
+    }
+
+    .about-desc {
+        font-size: 20px; 
+        text-align: center;
+        margin-left: 0px; 
+        padding-left: 20px; 
+        padding-right: 20px
+    }
+}
+
+@media (max-width: 576px) {
+    .about-desc {
+        font-size: 18px
+    }
+
+    #about img { 
+        margin: 0 auto; 
+        width: 80%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .overlap-p {
+        padding-top: 40px;
+    }
 }
 
