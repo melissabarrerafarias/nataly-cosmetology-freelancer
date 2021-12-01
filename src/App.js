@@ -6,7 +6,6 @@ import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import AppointmentPage from './pages/AppointmentPage';
 import Services from './pages/Services';
-import Footer from './components/Footer'; 
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
           <Route exact path="/appointment" component={AppointmentPage}></Route>
           <Route exact path="/services" component={Services}></Route>
         </Switch>
-        <Footer/>
       </div>
     </Router>
   );

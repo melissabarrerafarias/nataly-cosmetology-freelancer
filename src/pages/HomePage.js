@@ -3,7 +3,8 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 
 import placeholderIMG1 from '../assets/images/makeup-pallete.jpg';
-import placeholderIMG2 from '../assets/images/portrait.jpg'
+import placeholderIMG2 from '../assets/images/portrait.jpg';
+import Footer from '../components/Footer';
 function HomePage() {
     return (
         <main id="homepage">
@@ -29,7 +30,7 @@ function HomePage() {
             <div id="about" className="container">
                 <h1 className="text-center">Meet Your Stylist</h1>
                 <div className="row mt-5">
-                    
+
                     <div className="col-md-6">
                         <img src={placeholderIMG2} />
                     </div>
@@ -46,6 +47,7 @@ function HomePage() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </main>
     )
 }
