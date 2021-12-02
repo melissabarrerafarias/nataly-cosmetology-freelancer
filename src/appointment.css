@@ -20,6 +20,7 @@
 .booking-img-div {
     max-width: 50%;
     overflow: hidden;
+    background-image: url('./assets/images/natural-makeup-layed-out.jpg');
 }
 
 #appt-img img {
@@ -29,7 +30,8 @@
 .appt-form {
     width: 50%;
     margin: 0 auto;
-    margin-top: 5%
+    margin-top: 5%; 
+    margin-bottom: 5%
 }
 
 .form-control {
@@ -70,4 +72,60 @@
 
 .contact-btn:hover {
     background-color: #C69D92 ;
+}
+
+@media (max-width: 768px) {
+    .booking-img-div {
+        display: hidden;
+    }
+
+    #background-form {
+        background-image: url('./assets/images/natural-makeup-layed-out.jpg');
+    }
+
+    .appt-form {
+        background-color: #cec7c3e9;
+        padding-left: 50px; 
+        padding-right: 50px; 
+        padding-top: 20px; 
+        padding-bottom: 20px
+    }
+
+    #appt-main label {
+        font-size: 15px
+    }
+
+    #appt-main h4 {
+        font-size: 18px
+    }
+}
+
+@media (max-width: 576px) {
+
+    #appt-main h1 {
+        font-size: 25px;
+    }
+
+    #appt-main h4 {
+        font-size: 15px;
+    }
+
+    .appt-form {
+        width: 400px
+    }
+}
+
+@media (max-width: 475px) {
+
+    .appt-form {
+        width: 300px
+    }
+
+    #appt-main h1 {
+        font-size: 20px;
+    }
+
+    .contact-btn {
+        font-size: 15px;
+    }
 }

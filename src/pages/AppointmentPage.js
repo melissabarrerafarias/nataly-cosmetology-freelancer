@@ -1,5 +1,5 @@
 import React from 'react';
-import makeup from '../assets/images/natural-makeup-layed-out.jpg'
+// import makeup from '../assets/images/natural-makeup-layed-out.jpg'
 
 import '../appointment.css'
 
@@ -8,10 +8,11 @@ function AppointmentPage() {
         <main id="appt-main">
             <div className="flex-container">
                 <div className="row">
-                    <div className="col-md-8">
+                    <div id="background-form" className="col-md-8">
+                        
+                        <form className="appt-form">
                         <h1 className="text-center">SCHEDULE</h1>
                         <h4 className="text-center">Make an appointment with me!</h4>
-                        <form className="appt-form">
                             <div class="mb-3 row">
                                 <div className="col">
                                     <label>First Name</label>
@@ -47,7 +48,7 @@ function AppointmentPage() {
                         </form>
                     </div>
                     <div className="col-md-4 booking-img-div" id="appt-img">
-                        <img src={makeup} />
+                        {/* <img src={makeup} /> */}
                     </div>
                 </div>
             </div>
