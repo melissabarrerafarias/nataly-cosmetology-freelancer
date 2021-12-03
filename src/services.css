@@ -220,45 +220,8 @@
 
 @media (max-width: 1200px) {
     #makeup img {
-        max-width: 300px; 
-        height: 70%
-    }
-}
-
-@media (max-width: 992px) {
-    .you {
-        font-size: 60px;
-    }
-
-    .look {
-        font-size: 70px;
-    }
-
-    .good {
-        font-size: 80px ;
-    }
-
-    #makeup img {
-        max-width: 250px; 
-        height: 50%
-    }
-}
-
-@media (max-width: 850px) {
-    #makeup img {
-        max-width: 250px; 
-        height: 40%
-    }
-
-    .makeup1 {
-        padding-left: 15px
-    }
-}
-
-@media (max-width: 768px) {
-    #makeup img {
-        max-width: 300px; 
-        height: 80%; 
+        max-width: 700px; 
+        height: 60%
     }
 
     #makeup1-image {
@@ -278,6 +241,65 @@
         display: block;
         text-align: center;
     }
+}
+
+@media (max-width: 992px) {
+    .you {
+        font-size: 60px;
+    }
+
+    .look {
+        font-size: 70px;
+    }
+
+    .good {
+        font-size: 80px ;
+    }
+
+    #makeup img {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 850px) {
+    #makeup img {
+        max-width: 450px; 
+        /* height: 50% */
+    }
+
+    /* #makeup img {
+        max-width: 250px; 
+        height: 40%
+    } */
+
+    /* .makeup1 {
+        padding-left: 15px
+    } */
+}
+
+@media (max-width: 768px) {
+    #makeup img {
+        max-width: 300px; 
+        height: 80%; 
+    }
+
+    /* #makeup1-image {
+        display: none;
+    }
+
+    #makeup2-image {
+        display: none;
+    }
+
+    .sm-makeup-img1 {
+        display: block;
+        text-align: center;
+    }
+
+    .sm-makeup-img2 {
+        display: block;
+        text-align: center;
+    } */
 }
 
 @media (max-width: 576px) {
@@ -304,7 +326,7 @@
 
 @media (max-width: 380px) {
     #makeup img {
-        max-width: 180px; 
+        max-width: 170px; 
         height: 80%; 
     }
 }
