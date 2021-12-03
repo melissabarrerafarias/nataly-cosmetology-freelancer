@@ -84,7 +84,15 @@ function Services() {
 
 
                 <div id="makeup" className="row">
-                    <div className="col-md-4">
+
+                        <div className="sm-makeup-img1 col-6">
+                            <img src={makeup1} />
+                        </div>
+                        <div className="sm-makeup-img2 col-6">
+                            <img src={makeup2} />
+                        </div>
+
+                    <div id="makeup1-image" className="col-md-4">
                         <img src={makeup1} className="makeup1" />
                     </div>
                     <div className="col-md-4">
@@ -101,7 +109,7 @@ function Services() {
                             eu fugiat nulla pariatur.
                         </p>
                     </div>
-                    <div className="col-md-4">
+                    <div id ="makeup2-image"className="col-md-4">
                         <img src={makeup2} className="makeup2" />
                     </div>
                 </div>

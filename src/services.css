@@ -37,7 +37,7 @@
 
 #Nav-Invite {
     margin-top: 5%; 
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 #nav-container a {
@@ -198,4 +198,113 @@
     font-family: 'EB Garamond', serif;
     font-size: 20px;
     width: 80%
+}
+
+.sm-makeup-img1 {
+    display: none;
+}
+
+.sm-makeup-img2 {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    #makeup img {
+        max-width: 380px
+    }
+
+    .makeup1 {
+        padding-left: 0px
+    }
+}
+
+@media (max-width: 1200px) {
+    #makeup img {
+        max-width: 300px; 
+        height: 70%
+    }
+}
+
+@media (max-width: 992px) {
+    .you {
+        font-size: 60px;
+    }
+
+    .look {
+        font-size: 70px;
+    }
+
+    .good {
+        font-size: 80px ;
+    }
+
+    #makeup img {
+        max-width: 250px; 
+        height: 50%
+    }
+}
+
+@media (max-width: 850px) {
+    #makeup img {
+        max-width: 250px; 
+        height: 40%
+    }
+
+    .makeup1 {
+        padding-left: 15px
+    }
+}
+
+@media (max-width: 768px) {
+    #makeup img {
+        max-width: 300px; 
+        height: 80%; 
+    }
+
+    #makeup1-image {
+        display: none;
+    }
+
+    #makeup2-image {
+        display: none;
+    }
+
+    .sm-makeup-img1 {
+        display: block;
+        text-align: center;
+    }
+
+    .sm-makeup-img2 {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #makeup img {
+        max-width: 250px; 
+        height: 80%; 
+    }
+}
+
+@media (max-width: 476px) {
+    #makeup img {
+        max-width: 220px; 
+        height: 80%; 
+    }
+}
+
+@media (max-width: 421px) {
+    #makeup img {
+        max-width: 200px; 
+        height: 80%; 
+    }
+}
+
+
+@media (max-width: 380px) {
+    #makeup img {
+        max-width: 180px; 
+        height: 80%; 
+    }
 }
