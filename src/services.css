@@ -216,6 +216,10 @@
     .makeup1 {
         padding-left: 0px
     }
+
+    .makeup-p {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -235,11 +239,31 @@
     .sm-makeup-img1 {
         display: block;
         text-align: center;
+        margin-bottom: -300px
     }
 
     .sm-makeup-img2 {
         display: block;
         text-align: center;
+        margin-bottom: -300px
+    }
+
+    /* #makeup h1 {
+        font-size: 50px;
+    } */
+
+    .makeup-p {
+        font-size: 20px
+    }
+
+    #group-events img {
+        max-width: 90%; 
+        margin-top: 10px
+    }
+
+    #makeup-section-p {
+        padding-left: 60px; 
+        padding-right: 60px
     }
 }
 
@@ -259,22 +283,29 @@
     #makeup img {
         max-width: 500px;
     }
+
+    .sm-makeup-img1 {
+        margin-bottom: -200px
+    }
+
+    .sm-makeup-img2 {
+        margin-bottom: -200px
+    }
+
+    /* #makeup h1 {
+        font-size: 40px;
+    } */
+
+    .group-events-p {
+        font-size: 20px; 
+        width: 95%
+    }
 }
 
 @media (max-width: 850px) {
     #makeup img {
         max-width: 450px; 
-        /* height: 50% */
     }
-
-    /* #makeup img {
-        max-width: 250px; 
-        height: 40%
-    } */
-
-    /* .makeup1 {
-        padding-left: 15px
-    } */
 }
 
 @media (max-width: 768px) {
@@ -283,23 +314,31 @@
         height: 80%; 
     }
 
-    /* #makeup1-image {
-        display: none;
-    }
-
-    #makeup2-image {
-        display: none;
-    }
-
     .sm-makeup-img1 {
-        display: block;
-        text-align: center;
+        margin-bottom: -50px
     }
 
     .sm-makeup-img2 {
-        display: block;
+        margin-bottom: -50px
+    }
+
+    #group-events img {
+        float: none;
+    }
+
+    .group-img-div {
         text-align: center;
-    } */
+        margin-bottom: 5%
+    }
+
+    .group-events-p {
+        width: 100%
+    }
+    
+    .group-p-div {
+        padding-left: 60px; 
+        padding-right: 60px
+    }
 }
 
 @media (max-width: 576px) {
@@ -307,12 +346,32 @@
         max-width: 250px; 
         height: 80%; 
     }
+
+    .sm-makeup-img1 {
+        margin-bottom: -40px
+    }
+
+    .sm-makeup-img2 {
+        margin-bottom: -40px
+    }
+
+    #group-events img {
+        max-width: 80%
+    }
 }
 
 @media (max-width: 476px) {
     #makeup img {
         max-width: 220px; 
         height: 80%; 
+    }
+
+    #makeup h1 {
+        font-size: 35px;
+    }
+
+    .makeup-p {
+        font-size: 20px
     }
 }
 
@@ -328,5 +387,21 @@
     #makeup img {
         max-width: 170px; 
         height: 80%; 
+    }
+
+    .sm-makeup-img1 {
+        margin-bottom: -20px
+    }
+
+    .sm-makeup-img2 {
+        margin-bottom: -20px
+    }
+
+    #group-events img {
+        max-width: 75%
+    }
+
+    .group-img-div {
+        margin-bottom: 10%
     }
 }

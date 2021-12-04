@@ -95,7 +95,7 @@ function Services() {
                     <div id="makeup1-image" className="col-md-4">
                         <img src={makeup1} className="makeup1" />
                     </div>
-                    <div className="col-md-4">
+                    <div id="makeup-section-p" className="col-xl-4 col-lg-12">
                         <h1>MAKEUP</h1>
                         <p className="makeup-p">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -115,11 +115,11 @@ function Services() {
                 </div>
 
                 <div id="group-events" className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-7 col-lg-6 group-img-div">
                         <img src={bridal} />
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-5 col-lg-6 group-p-div">
                         <h1>GROUP EVENTS</h1>
                         <p className="group-events-p">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
