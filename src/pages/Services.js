@@ -51,10 +51,10 @@ function Services() {
                 </div>
 
                 <div id="hair" className="row">
-                    <div className="col-md-7">
+                    <div id="hair-dresser" className="col-md-6 col-lg-7">
                         <img src={hairstylist} />
                     </div>
-                    <div className="col-md-5 hair-srvs-div">
+                    <div className="col-md-6 col-lg-5 hair-srvs-div">
                         <h1>HAIR</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -77,7 +77,7 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6" id="blonde-hair-pic">
                         <img src={hairStyle} />
                     </div>
                 </div>
