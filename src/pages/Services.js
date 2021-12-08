@@ -13,7 +13,7 @@ import bridal from '../assets/images/bridal.jpg';
 
 function Services() {
     return (
-        <main id="services">
+        <main>
             <div className="services-top container-fluid">
                 <div className="row">
                     <div id="intro-message" className="col-md-6 you-look-good text-center">
@@ -25,12 +25,14 @@ function Services() {
                             </Pulse>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div id="services" className="col-md-6">
                         <Slide right>
                             <img src={prettyGirl} />
                         </Slide>
                         <div className="ylg-small">
-                            You Look Great
+                            <p className="you">You</p>
+                            <p className="look">Look</p>
+                            <p className="good">Great</p>
                         </div>
                     </div>
                 </div>

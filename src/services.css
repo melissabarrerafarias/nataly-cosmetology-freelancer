@@ -140,7 +140,7 @@
 }
 
 #hairstyle img {
-    min-width: 50%
+    max-width: 50%
 }
 
 #hairstyle h1 {
@@ -230,7 +230,7 @@
     }
 
     #hairstyle img {
-        min-width: 70%
+        max-width: 70%
     }
 
     .hair-srvs-div-2 {
@@ -370,11 +370,11 @@
     }
 
     #hairstyle img {
-        min-width: 90%;
+        max-width: 60%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.99px) {
     #makeup {
         margin-top: 25%;
     }
@@ -467,10 +467,26 @@
 
     .ylg-small {
         display: block;
-        text-align: center;
         font-size: 40px;
         font-family: 'Pacifico', cursive;
         margin-top: 10%; 
+        width: 40%; 
+        text-align: center
+    }
+
+    .you {
+        font-size: 60px; 
+        /* margin-left: 20%;  */
+    }
+    
+    .look {
+        font-size: 60px;
+        /* margin-left: 20%;  */
+    }
+    
+    .good {
+        font-size: 60px;
+        /* margin-left: 20%;  */
     }
 }
 
@@ -514,6 +530,21 @@
     .makeup-p {
         font-size: 20px
     }
+
+    .you {
+        font-size: 50px; 
+        /* margin-left: 20%;  */
+    }
+    
+    .look {
+        font-size: 50px;
+        /* margin-left: 20%;  */
+    }
+    
+    .good {
+        font-size: 50px;
+        /* margin-left: 20%;  */
+    }
 }
 
 @media (max-width: 421px) {
@@ -530,6 +561,21 @@
     #hairstyle img {
         min-width: 80%;
     }    
+
+    .you {
+        font-size: 40px; 
+        /* margin-left: 20%;  */
+    }
+    
+    .look {
+        font-size: 40px;
+        /* margin-left: 20%;  */
+    }
+    
+    .good {
+        font-size: 40px;
+        /* margin-left: 20%;  */
+    }
 }
 
 
