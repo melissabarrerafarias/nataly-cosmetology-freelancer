@@ -16,7 +16,7 @@ function Services() {
         <main id="services">
             <div className="services-top container-fluid">
                 <div className="row">
-                    <div className="col-md-6 you-look-good text-center">
+                    <div id="intro-message" className="col-md-6 you-look-good text-center">
                         <div className="message-background">
                             <Pulse>
                                 <h1 className="you">You</h1>
@@ -29,6 +29,9 @@ function Services() {
                         <Slide right>
                             <img src={prettyGirl} />
                         </Slide>
+                        <div className="ylg-small">
+                            You Look Great
+                        </div>
                     </div>
                 </div>
                 <hr></hr>
@@ -85,12 +88,12 @@ function Services() {
 
                 <div id="makeup" className="row">
 
-                        <div className="sm-makeup-img1 col-6">
-                            <img src={makeup1} />
-                        </div>
-                        <div className="sm-makeup-img2 col-6">
-                            <img src={makeup2} />
-                        </div>
+                    <div className="sm-makeup-img1 col-6">
+                        <img src={makeup1} />
+                    </div>
+                    <div className="sm-makeup-img2 col-6">
+                        <img src={makeup2} />
+                    </div>
 
                     <div id="makeup1-image" className="col-md-4">
                         <img src={makeup1} className="makeup1" />
@@ -109,7 +112,7 @@ function Services() {
                             eu fugiat nulla pariatur.
                         </p>
                     </div>
-                    <div id ="makeup2-image"className="col-md-4">
+                    <div id="makeup2-image" className="col-md-4">
                         <img src={makeup2} className="makeup2" />
                     </div>
                 </div>

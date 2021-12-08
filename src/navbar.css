@@ -30,3 +30,7 @@
     color: #FFFDF7;
 }
 
+.navbar-light .navbar-toggler {
+    color: white
+}
+

@@ -208,6 +208,10 @@
     display: none;
 }
 
+.ylg-small {
+    display: none;
+}
+
 @media (max-width: 1400px) {
     #makeup {
         margin-top: 25%;
@@ -334,6 +338,15 @@
     .hair-srvs-div-2 {
         width: 80%;
     }
+
+    #services-appt-invite hr {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .nav-services {
+        width: 80%
+    }
 }
 
 @media (max-width: 850px) {
@@ -420,7 +433,45 @@
         text-align: center;
         margin-top: 10%
     }
-    
+
+    #services-appt-invite {
+        margin-top: 20%; 
+        text-align: center;
+    }
+
+    .invite-p1 {
+        /* margin-left: 20px */
+    }
+
+    .invite-p2 {
+        text-align: center;
+        padding: 0px
+    }
+
+    #services-appt-invite hr {
+        max-width: 60%;
+        /* margin-left: 0px; */
+        /* text-align: center; */
+        margin: 0 auto; 
+        margin-bottom: 20px
+    }
+
+    #intro-message {
+        display: none;
+    }
+
+    #services img {
+        max-width: 50%;
+        float: right;
+    }
+
+    .ylg-small {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Pacifico', cursive;
+        margin-top: 10%; 
+    }
 }
 
 @media (max-width: 576px) {
@@ -456,9 +507,9 @@
         height: 80%; 
     }
 
-    #makeup h1 {
+    /* #makeup h1 {
         font-size: 35px;
-    }
+    } */
 
     .makeup-p {
         font-size: 20px
