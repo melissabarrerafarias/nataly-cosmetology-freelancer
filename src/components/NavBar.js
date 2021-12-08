@@ -6,7 +6,7 @@ function NavBar() {
         <nav class="navbar navbar-expand-lg navbar-light">
             <div id="navBarElements" class="container-fluid">
                 <div id="navTitle">
-                    <a class="navbar-brand" href="/">Nataly</a>
+                    <a class="navbar-brand" href="/">BeautyXBelle</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="far fa-caret-square-down"></i>
