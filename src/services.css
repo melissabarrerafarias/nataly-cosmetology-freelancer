@@ -320,15 +320,16 @@
     }
 
     #makeup img {
-        max-width: 500px;
+        max-width: 80%;
+        height: 50%
     }
+
+    /* .sm-makeup-img2 {
+        margin-bottom: -200px
+    } */
 
     .sm-makeup-img1 {
-        margin-bottom: -200px
-    }
-
-    .sm-makeup-img2 {
-        margin-bottom: -200px
+        display: none
     }
 
     /*hair services section*/
@@ -354,9 +355,9 @@
 
 @media (max-width: 850px) {
     /* makeup services section */
-    #makeup img {
+    /* #makeup img {
         max-width: 450px; 
-    }
+    } */
 
     /* hair services section */
     #hair img {
@@ -577,6 +578,11 @@
     }
 
     /* makeup services section */
+    #makeup img {
+        max-width: 60%;
+        height: 50%;
+    }
+
     .sm-makeup-img1 {
         margin-bottom: -20px
     }
