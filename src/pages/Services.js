@@ -25,7 +25,7 @@ function Services() {
                             </Pulse>
                         </div>
                     </div>
-                    <div id="services" className="col-md-6">
+                    <div id="services" className="col">
                         <Slide right>
                             <img src={prettyGirl} />
                         </Slide>
@@ -39,8 +39,8 @@ function Services() {
                 <hr></hr>
             </div>
 
-            <div id="Nav-Invite" className="container-fluid">
-                <div className="row">
+            <div className="container-fluid">
+                <div className="row" id="Nav-Invite">
                     <div className="col-md-6 d-flex justify-content-center" id="nav-container">
                         <div className="nav-services">
                             <a href="#hair">Hair</a>
@@ -93,7 +93,7 @@ function Services() {
                     <div className="sm-makeup-img1 col-6">
                         <img src={makeup1} />
                     </div>
-                    <div className="sm-makeup-img2 col-6">
+                    <div className="sm-makeup-img2 col-md-12 col-lg-6">
                         <img src={makeup2} />
                     </div>
 

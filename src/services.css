@@ -1,3 +1,4 @@
+/* hero */
 .services-top {
     background-color: white;
 }
@@ -31,13 +32,17 @@
     text-shadow: 4px 4px #BC968A
 }
 
+.ylg-small {
+    display: none;
+}
+
 #services img {
     max-width: 50%;
 }
 
+/* services nav and invitation to schedule appt */
 #Nav-Invite {
-    margin-top: 5%; 
-    /* margin-bottom: 5%; */
+    margin-top: 5%;
 }
 
 #nav-container a {
@@ -60,7 +65,6 @@
     border-width: 1px;
     box-shadow: 20px 10px #876c64;
     border-color: #876c64
-    /* border-radius: 10px; */
 }
 
 #nav-container a:hover {
@@ -95,6 +99,7 @@
     text-decoration: underline;
 }
 
+/* hair services section */
 #hair {
     margin-top: 20%
 }
@@ -131,7 +136,6 @@
 #hairstyle p {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
-    /* text-align: end; */
 }
 
 .hairstyle-div {
@@ -146,9 +150,9 @@
 #hairstyle h1 {
     font-family: 'DM Serif Display', serif;
     font-weight: bold;
-    /* text-align: end; */
 }
 
+/* makeup services section */
 #makeup {
     margin-top: 25%
 }
@@ -161,11 +165,9 @@
 .makeup1 {
     float: right;
     padding-left: 20px
-    /* min-width: 110% */
 }
 
 .makeup2 {
-    /* height: 400px */
     float: left;
 }
 
@@ -179,6 +181,15 @@
     font-size: 20px;
 }
 
+.sm-makeup-img1 {
+    display: none;
+}
+
+.sm-makeup-img2 {
+    display: none;
+}
+
+/* group events section */
 #group-events {
     margin-top: 20%; 
     padding-bottom: 10%;
@@ -186,7 +197,7 @@
 
 #group-events img {
     max-width: 80%; 
-    float: right
+    float: right; 
 }
 
 #group-events h1 {
@@ -200,19 +211,8 @@
     width: 80%
 }
 
-.sm-makeup-img1 {
-    display: none;
-}
-
-.sm-makeup-img2 {
-    display: none;
-}
-
-.ylg-small {
-    display: none;
-}
-
 @media (max-width: 1400px) {
+    /* makeup services section */
     #makeup {
         margin-top: 25%;
     }
@@ -229,6 +229,7 @@
         font-size: 18px;
     }
 
+    /* hair services section*/
     #hairstyle img {
         max-width: 70%
     }
@@ -243,6 +244,7 @@
 }
 
 @media (max-width: 1200px) {
+    /* makeup services section */
     #makeup {
         margin-top: 25%;
     }
@@ -272,30 +274,24 @@
         margin-bottom: -300px
     }
 
-    /* #makeup h1 {
-        font-size: 50px;
-    } */
-
     .makeup-p {
         font-size: 20px
-    }
-
-    #group-events img {
-        max-width: 90%; 
-        margin-top: 10px
     }
 
     #makeup-section-p {
         padding-left: 60px; 
         padding-right: 60px
     }
+
+    /* group events section */
+    #group-events img {
+        max-width: 90%; 
+        margin-top: 10px
+    }
 }
 
 @media (max-width: 992px) {
-    #makeup {
-        margin-top: 25%;
-    }
-
+    /* hero */
     .you {
         font-size: 60px;
     }
@@ -306,6 +302,21 @@
 
     .good {
         font-size: 80px ;
+    }
+
+    /* services nav and invite to make appt */
+    .nav-services {
+        width: 80%
+    }
+    
+    #services-appt-invite hr {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    /* makeup services section */
+    #makeup {
+        margin-top: 25%;
     }
 
     #makeup img {
@@ -320,14 +331,9 @@
         margin-bottom: -200px
     }
 
-    .group-events-p {
-        font-size: 20px; 
-        width: 95%
-    }
-
+    /*hair services section*/
     .hair-srvs-div {
         width: 40%;
-        /* margin-right: 20px */
     }
 
     #hair img {
@@ -339,21 +345,20 @@
         width: 80%;
     }
 
-    #services-appt-invite hr {
-        max-width: 100%;
-        margin-left: 0px;
-    }
-
-    .nav-services {
-        width: 80%
+    /* group events section */
+    .group-events-p {
+        font-size: 20px; 
+        width: 95%
     }
 }
 
 @media (max-width: 850px) {
+    /* makeup services section */
     #makeup img {
         max-width: 450px; 
     }
 
+    /* hair services section */
     #hair img {
         margin-left: 20%;
         min-width: 80%;
@@ -374,42 +379,76 @@
     }
 }
 
-@media (max-width: 767.99px) {
+@media (max-width: 768px) {
+    /* hero */
+    #intro-message {
+        display: none;
+    }
+
+    #services img {
+        max-width: 50%;
+        float: right;
+    }
+
+    .ylg-small {
+        display: block;
+        font-size: 40px;
+        font-family: 'Pacifico', cursive;
+        margin-top: 10%; 
+        width: 40%; 
+        text-align: center
+    }
+
+    .you {
+        font-size: 60px
+    }
+
+    .look {
+        font-size: 70px;
+    }
+
+    .good {
+        font-size: 80px;
+    }
+
+    /* services nav and invite to make appt */
+    #services-appt-invite {
+        margin-top: 20%; 
+        text-align: center;
+    }
+
+    .invite-p2 {
+        text-align: center;
+        padding: 0px
+    }
+
+    #services-appt-invite hr {
+        max-width: 60%;
+        /* margin-left: 0px; */
+        /* text-align: center; */
+        margin: 0 auto; 
+        margin-bottom: 20px
+    }
+
+    /* makeup services section */
     #makeup {
         margin-top: 25%;
     }
 
     #makeup img {
-        max-width: 300px; 
+        max-width: 60%; 
         height: 80%; 
     }
 
     .sm-makeup-img1 {
-        margin-bottom: -50px
+        display: none
     }
 
     .sm-makeup-img2 {
-        margin-bottom: -50px
+        margin-bottom: -50px; 
     }
 
-    #group-events img {
-        float: none;
-    }
-
-    .group-img-div {
-        text-align: center;
-        margin-bottom: 5%
-    }
-
-    .group-events-p {
-        width: 100%
-    }
-    
-    .group-p-div {
-        padding-left: 60px; 
-        padding-right: 60px
-    }
-
+    /* hair services section */
     #hair img {
         margin-left: 0%;
         min-width: 60%;
@@ -434,70 +473,43 @@
         margin-top: 10%
     }
 
-    #services-appt-invite {
-        margin-top: 20%; 
+    /* group events section */
+    #group-events img {
+        float: none;
+    }
+
+    .group-img-div {
         text-align: center;
+        margin-bottom: 5%
     }
 
-    .invite-p1 {
-        /* margin-left: 20px */
-    }
-
-    .invite-p2 {
-        text-align: center;
-        padding: 0px
-    }
-
-    #services-appt-invite hr {
-        max-width: 60%;
-        /* margin-left: 0px; */
-        /* text-align: center; */
-        margin: 0 auto; 
-        margin-bottom: 20px
-    }
-
-    #intro-message {
-        display: none;
-    }
-
-    #services img {
-        max-width: 50%;
-        float: right;
-    }
-
-    .ylg-small {
-        display: block;
-        font-size: 40px;
-        font-family: 'Pacifico', cursive;
-        margin-top: 10%; 
-        width: 40%; 
-        text-align: center
-    }
-
-    .you {
-        font-size: 60px; 
-        /* margin-left: 20%;  */
+    .group-events-p {
+        width: 100%
     }
     
-    .look {
-        font-size: 60px;
-        /* margin-left: 20%;  */
-    }
-    
-    .good {
-        font-size: 60px;
-        /* margin-left: 20%;  */
+    .group-p-div {
+        padding-left: 60px; 
+        padding-right: 60px
     }
 }
 
 @media (max-width: 576px) {
-    #makeup {
-        margin-top: 25%;
+    /* hero */
+    .you {
+        font-size: 40px
     }
 
-    #makeup img {
-        max-width: 250px; 
-        height: 80%; 
+    .look {
+        font-size: 50px;
+    }
+
+    .good {
+        font-size: 60px;
+    }
+
+    /* makeup services section*/
+    #makeup {
+        margin-top: 25%;
     }
 
     .sm-makeup-img1 {
@@ -508,51 +520,37 @@
         margin-bottom: -40px
     }
 
+    /* group events section */
     #group-events img {
         max-width: 80%
     }
 }
 
 @media (max-width: 476px) {
+    /* hero */
+    .you {
+        font-size: 30px
+    }
+
+    .look {
+        font-size: 40px;
+    }
+
+    .good {
+        font-size: 50px;
+    }
+    /* makeup services section */
     #makeup {
         margin-top: 25%;
     }
 
-    #makeup img {
-        max-width: 220px; 
-        height: 80%; 
-    }
-
-    /* #makeup h1 {
-        font-size: 35px;
-    } */
-
     .makeup-p {
         font-size: 20px
-    }
-
-    .you {
-        font-size: 50px; 
-        /* margin-left: 20%;  */
-    }
-    
-    .look {
-        font-size: 50px;
-        /* margin-left: 20%;  */
-    }
-    
-    .good {
-        font-size: 50px;
-        /* margin-left: 20%;  */
     }
 }
 
 @media (max-width: 421px) {
-    #makeup img {
-        max-width: 200px; 
-        height: 80%; 
-    }
-
+    /* hair services section */
     #hair img {
         margin-left: 0%;
         min-width: 80%;
@@ -561,30 +559,24 @@
     #hairstyle img {
         min-width: 80%;
     }    
-
-    .you {
-        font-size: 40px; 
-        /* margin-left: 20%;  */
-    }
-    
-    .look {
-        font-size: 40px;
-        /* margin-left: 20%;  */
-    }
-    
-    .good {
-        font-size: 40px;
-        /* margin-left: 20%;  */
-    }
 }
 
 
 @media (max-width: 380px) {
-    #makeup img {
-        max-width: 170px; 
-        height: 80%; 
+    /* hero */
+    .you {
+        font-size: 30px
     }
 
+    .look {
+        font-size: 40px;
+    }
+
+    .good {
+        font-size: 45px;
+    }
+
+    /* makeup services section */
     .sm-makeup-img1 {
         margin-bottom: -20px
     }
@@ -593,6 +585,7 @@
         margin-bottom: -20px
     }
 
+    /* group events section */
     #group-events img {
         max-width: 75%
     }
