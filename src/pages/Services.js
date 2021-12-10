@@ -93,7 +93,7 @@ function Services() {
                     <div className="sm-makeup-img1 col-6">
                         <img src={makeup1} />
                     </div>
-                    <div className="sm-makeup-img2 col col-md-12 col-lg-6">
+                    <div className="sm-makeup-img2 col-xs-6 col-md-12 col-lg-6">
                         <img src={makeup2} />
                     </div>
 
