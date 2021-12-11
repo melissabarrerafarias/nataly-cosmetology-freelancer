@@ -189,6 +189,10 @@
     display: none;
 }
 
+.phone-makeup-img {
+    display: none;
+}
+
 /* group events section */
 #group-events {
     margin-top: 20%; 
@@ -580,15 +584,15 @@
     /* makeup services section */
     #makeup img {
         max-width: 100%;
-        height: auto;
     }
 
-    .sm-makeup-img1 {
-        margin-bottom: -20px
+    .phone-makeup-img {
+        display: block;
+        text-align: center;
     }
 
     .sm-makeup-img2 {
-        margin-bottom: -20px
+        display: none
     }
 
     /* group events section */
