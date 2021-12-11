@@ -172,13 +172,20 @@
 }
 
 #makeup img {
-    height: 90%;
-    max-width: 400px;
+    max-width: 80%;
+}
+
+.makeup-image {
+    text-align: center;
 }
 
 .makeup-p {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
+}
+
+.makeup-text-grp {
+    margin-left: 10%;
 }
 
 .sm-makeup-img1 {
@@ -221,10 +228,6 @@
         margin-top: 25%;
     }
 
-    #makeup img {
-        max-width: 380px
-    }
-
     .makeup1 {
         padding-left: 0px
     }
@@ -254,8 +257,12 @@
     }
 
     #makeup img {
-        max-width: 700px; 
-        height: 60%
+        max-width: 90%;
+        margin-top: 25%
+    }
+    
+    .makeup-text-grp {
+        margin-left: 10%;
     }
 
     #makeup1-image {
@@ -324,13 +331,9 @@
     }
 
     #makeup img {
-        max-width: 80%;
-        height: 50%
+        max-width: 90%;
+        margin-top: 50%;
     }
-
-    /* .sm-makeup-img2 {
-        margin-bottom: -200px
-    } */
 
     .sm-makeup-img1 {
         display: none
@@ -359,9 +362,15 @@
 
 @media (max-width: 850px) {
     /* makeup services section */
-    /* #makeup img {
-        max-width: 450px; 
-    } */
+    #makeup img {
+        max-width: 100%;
+        margin-top: 65%;
+    }
+
+    #makeup-section-p {
+        padding-left: 30px; 
+        padding-right: 30px
+    }
 
     /* hair services section */
     #hair img {
@@ -375,12 +384,18 @@
 
     .hair-srvs-div-2 {
         width: 100%;
-        padding-left: 10%; 
+        /* text-align: end; */
+        padding-right: 0px;
+        padding-left: 20%; 
         /* margin: 0 auto */
     }
 
+    /* .spanish {
+        margin-left: 50px;
+    } */
+
     #hairstyle img {
-        max-width: 60%;
+        max-width: 80%;
     }
 }
 
@@ -437,12 +452,31 @@
 
     /* makeup services section */
     #makeup {
-        margin-top: 25%;
+        margin-top: 0%;
     }
 
     #makeup img {
-        max-width: 60%; 
-        height: 80%; 
+        max-width: 70%; 
+        /* height: 80%;  */
+    }
+
+    .makeup-image {
+        display: none;
+    }
+
+    .phone-makeup-img {
+        display: block;
+        text-align: center;
+    }
+
+    .makeup-text-grp {
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
+    #makeup-section-p {
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .sm-makeup-img1 {
@@ -469,8 +503,16 @@
         margin-top: 10%
     }
 
+    .hair-srvs-div-2 {
+        width: 80%;
+        padding-right: 0px;
+        padding-left: 0px;
+        float: none;
+        margin: 0 auto
+    }
+
     #hairstyle img {
-        min-width: 60%;
+        max-width: 60%;
     }
 
     #blonde-hair-pic {
@@ -514,7 +556,11 @@
 
     /* makeup services section*/
     #makeup {
-        margin-top: 25%;
+        margin-top: 0%;
+    }
+
+    #makeup img {
+        max-width: 80%;
     }
 
     .sm-makeup-img1 {
@@ -546,7 +592,7 @@
     }
     /* makeup services section */
     #makeup {
-        margin-top: 25%;
+        margin-top: 0%;
     }
 
     .makeup-p {
@@ -583,7 +629,8 @@
 
     /* makeup services section */
     #makeup img {
-        min-width: 60%;
+        max-width: 90%;
+        margin-bottom: 25px
     }
 
     .phone-makeup-img {

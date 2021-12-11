@@ -9,6 +9,7 @@ import hairStyle from '../assets/images/haircut-2.jpg';
 import makeup1 from '../assets/images/makeup-girl.jpg';
 import makeup2 from '../assets/images/makeup-girl-2.jpg';
 import bridal from '../assets/images/bridal.jpg';
+import makeup3 from '../assets/images/doing-makeup.jpg';
 
 
 function Services() {
@@ -71,16 +72,19 @@ function Services() {
                 </div>
 
                 <div id="hairstyle" className="row">
-                    <div className="col-md-6">
+                    <div id="more-hair" className="col-md-6">
                         <div className="hair-srvs-div-2">
-                            <h1>MORE HAIR</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                            </p>
+                            <div className='spanish'>
+                                <h1>MORE HAIR</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </p>
+                            </div>
                         </div>
+
                     </div>
                     <div className="col-md-6" id="blonde-hair-pic">
                         <img src={hairStyle} />
@@ -90,37 +94,42 @@ function Services() {
 
                 <div id="makeup" className="row">
 
-                    <div className="sm-makeup-img1 col-6">
+                    {/* <div className="sm-makeup-img1 col-6">
                         <img src={makeup1} />
                     </div>
                     <div className="sm-makeup-img2 col-xs-6 col-md-12 col-lg-6">
-                        <img src={makeup2} />
+                        <img src={makeup3} />
                     </div>
                     <div id="makeup1-image" className="col-md-4">
                         <img src={makeup1} className="makeup1" />
+                    </div> */}
+
+                    <div className="col phone-makeup-img">
+                        <img src={makeup3} />
                     </div>
 
-                    <div className="col phone-makeup-img"> 
-                        <img src={makeup2} />
+                    <div id="makeup-section-p" className="col-md-6">
+                        <div className="makeup-text-grp">
+                            <h1>MAKEUP</h1>
+                            <p className="makeup-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur.
+                            </p>
+                            <h1 className="mt-5">SKINCARE</h1>
+                            <p className="makeup-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur.
+                            </p>
+                        </div>
                     </div>
-                    
-                    <div id="makeup-section-p" className="col-xl-4 col-lg-12">
-                        <h1>MAKEUP</h1>
-                        <p className="makeup-p">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur.
-                        </p>
-                        <h1 className="mt-5">SKINCARE</h1>
-                        <p className="makeup-p">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur.
-                        </p>
+                    <div className='col-md-6 makeup-image'>
+                        <img src={makeup3} />
                     </div>
-                    <div id="makeup2-image" className="col-md-4">
+                    {/* <div id="makeup2-image" className="col-md-4">
                         <img src={makeup2} className="makeup2" />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div id="group-events" className="row">
