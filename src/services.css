@@ -583,7 +583,7 @@
 
     /* makeup services section */
     #makeup img {
-        max-width: 100%;
+        min-width: 60%;
     }
 
     .phone-makeup-img {
